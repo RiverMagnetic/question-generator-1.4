@@ -1,4 +1,62 @@
-body {
-  padding: 10px;
-  font-family: sans-serif;
-}
+html, body {
+    overflow-x: hidden;
+    /* overflow-y: hidden;  */
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background-repeat:repeat-x;
+    background-position: top;
+    z-index: -2;
+    text-align: center;
+  }
+
+  h1 {
+    text-align: center;
+  }
+  
+  #display {
+      font-size: 2.9em;
+      top: 10px;
+    padding-bottom: 20px;
+  }
+
+  .navbar {
+    position: fixed;
+    width: 100%;
+    opacity: 0.6;
+    filter: alpha(opacity=60); /* For IE8 and earlier */
+  }
+
+  #content {
+    height: 45em;
+  } 
+  
+  p {
+    max-width: 23em;
+    font-family: "Adobe Caslon Pro", "Hoefler Text", Georgia, Garamond, Times, serif;
+    text-align:center;
+    margin: 36px auto;
+    line-height: 209%;
+    font-size: 1.5em;
+  }
+
+  p :hover {
+    text-decoration: none;
+  }
+  
+  .container {
+    padding-top: 6em;
+    text-align: center;
+  }
+  
+  #b-nav {
+    padding-bottom: 5em;
+    position: fixed;
+    width: 100%;
+    bottom: 2em;
+  }
+  
+  #gen:hover {
+    border: thin solid black;
+    opacity: 0.8;
+  }
